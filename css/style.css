@@ -1,0 +1,65 @@
+/* 
+  arquivo: css/style.css
+  finalidade: estilos customizados para PetLoris (Fase 2)
+  autor: Jessica Loriato
+*/
+
+/* Tipografia e cores */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #333;
+  background: #fff;
+}
+
+/* Logo */
+.logo {
+  width: 56px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Header e footer */
+.site-header h1 {
+  font-size: 1.25rem;
+  color: #6b4f4b; /* marrom suave */
+}
+
+.site-footer {
+  border-top: 1px solid #e9ecef;
+}
+
+/* Carrossel caption */
+.carousel-caption {
+  background: rgba(255,255,255,0.65);
+  color: #333;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+/* Forms */
+form legend {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Melhor contraste para textos obrigatórios */
+.text-danger {
+  color: #d6336c !important;
+}
+
+/* Responsividade: garantir imagens do conteúdo não ultrapassem */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pequeno ajuste para largura do container nas páginas */
+main.container {
+  max-width: 980px;
+}
+
+/* Foco de acessibilidade (visível para teclado) */
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+  outline: 3px solid rgba(102, 153, 204, 0.35);
+  outline-offset: 2px;
+}
