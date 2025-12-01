@@ -1,37 +1,52 @@
+<!--
+  arquivo: contato.html
+  finalidade: informações de contato do estabelecimento
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Contato - PetLoris</title>
+  <meta charset="UTF-8">
+  <title>Contato - PetLoris</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="site-header p-3 bg-light" role="banner">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="brand d-flex align-items-center">
+        <img src="img/logo_petloris.png" alt="Logomarca PetLoris" class="logo" />
+        <h1 class="ms-2 mb-0">PetLoris</h1>
+      </div>
+      <nav aria-label="Menu principal">
+        <a class="me-2" href="index.html">Início</a>
+        <a class="me-2" href="produtos.html">Produtos</a>
+        <a class="me-2" href="servicos.html">Serviços</a>
+        <a class="me-2" href="agendamento.html">Agendamento</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <h1>PetLoris</h1>
-        <nav>
-            <a href="index.html">Início</a> |
-            <a href="produtos.html">Produtos</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-    </header>
+  <main class="container my-4" role="main">
+    <h2>Contato</h2>
+    <p>📞 <strong>Telefone:</strong> (11) 99999-9999</p>
+    <p>📧 <strong>Email:</strong> contato@petloris.com.br</p>
+    <p>📍 <strong>Endereço:</strong> Rua das Batatas Brilhantes, 123 - São Paulo/SP</p>
+  </main>
 
-    <hr>
+  <footer class="site-footer bg-light py-3" role="contentinfo">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <p class="mb-0">&copy; 2025 PetLoris. Todos os direitos reservados.</p>
+        <p class="mb-0">Desenvolvido por <strong>Jessica Loriato</strong>.</p>
+      </div>
+      <div>
+        <a href="contato.html">Fale conosco</a>
+      </div>
+    </div>
+  </footer>
 
-    <main>
-        <h2>Contato</h2>
-        <p>Telefone: (11) 99999-9999</p>
-        <p>Email: contato@petloris.com.br</p>
-        <p>Endereço: Rua das Batatas Brilhantes, 123 - São Paulo/SP</p>
-    </main>
-
-    <hr>
-
-    <footer>
-        <p>&copy; 2025 PetLoris. Todos os direitos reservados.</p>
-        <p>Desenvolvido por <strong>Jessica Loriato</strong>.</p>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
-
