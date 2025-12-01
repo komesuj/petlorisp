@@ -1,41 +1,62 @@
+<!--
+  arquivo: servicos.html
+  finalidade: listar serviços oferecidos
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Serviços - PetLoris</title>
+  <meta charset="UTF-8">
+  <title>Serviços - PetLoris</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="site-header p-3 bg-light" role="banner">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="brand d-flex align-items-center">
+        <img src="img/logo_petloris.png" alt="Logomarca PetLoris" class="logo" />
+        <h1 class="ms-2 mb-0">PetLoris</h1>
+      </div>
+      <nav aria-label="Menu principal">
+        <a class="me-2" href="index.html">Início</a>
+        <a class="me-2" href="produtos.html">Produtos</a>
+        <a class="me-2" href="servicos.html">Serviços</a>
+        <a class="me-2" href="agendamento.html">Agendamento</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <h1>PetLoris</h1>
-        <nav>
-            <a href="index.html">Início</a> |
-            <a href="produtos.html">Produtos</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-    </header>
+  <main class="container my-4" role="main">
+    <h2>Serviços</h2>
+    <p>Oferecemos serviços profissionais utilizando materiais de alta qualidade.</p>
 
-    <hr>
+    <ul class="list-group">
+      <li class="list-group-item">Banho e Tosa - R$ 100,00 - Com tele-busca</li>
+      <li class="list-group-item">Banho e Tosa - R$ 70,00 - Sem tele-busca</li>
+      <li class="list-group-item">Consulta Veterinária - R$ 150,00 - Sem tele-busca</li>
+      <li class="list-group-item">Vacinação - R$ 90,00 - Com tele-busca</li>
+      <li class="list-group-item">Hospedagem de Pets - R$ 120,00/dia - Sem tele-busca</li>
+    </ul>
 
-    <main>
-        <h2>Serviços</h2>
-        <ul>
-            <li>Banho e Tosa - R$ 100,00 - Com tele-busca</li>
-            <li>Banho e Tosa - R$ 70,00 - Sem tele-busca</li>           
-            <li>Consulta Veterinária - R$ 150,00 - Sem tele-busca</li>
-            <li>Vacinação - R$ 90,00 - Com tele-busca</li>
-            <li>Hospedagem de Pets - R$ 120,00/dia - Sem tele-busca</li>
-        </ul>
-    </main>
+    <div class="mt-4">
+      <p>Quer agendar um serviço? Acesse a página de <a href="agendamento.html">Agendamento</a>.</p>
+    </div>
+  </main>
 
-    <hr>
+  <footer class="site-footer bg-light py-3" role="contentinfo">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <p class="mb-0">&copy; 2025 PetLoris. Todos os direitos reservados.</p>
+        <p class="mb-0">Desenvolvido por <strong>Jessica Loriato</strong>.</p>
+      </div>
+      <div>
+        <a href="contato.html">Fale conosco</a>
+      </div>
+    </div>
+  </footer>
 
-    <footer>
-        <p>&copy; 2025 PetLoris. Todos os direitos reservados.</p>
-        <p>Desenvolvido por <strong>Jessica Loriato</strong>.</p>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
-
