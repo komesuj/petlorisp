@@ -16,5 +16,5 @@ O PetLoris é um site básico de um petshop fictício, criado utilizando apenas 
 **Jessica Loriato**
 
 ## Links
-- Repositório: [https://github.com/komesuj/petloris/](https://github.com/komesuj/petloris/)  
-- Site publicado: [https://komesuj.github.io/petloris/](https://komesuj.github.io/petloris/)
+- Repositório: [https://github.com/komesuj/petlorisp/](https://github.com/komesuj/petlorisp/)  
+- Site publicado: [https://komesuj.github.io/petlorisp/](https://komesuj.github.io/petlorisp/)
